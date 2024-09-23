@@ -1,3 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Calculos
+{    
     /// <summary>
     /// Conversão de temperaturas.
     /// </summary>
@@ -18,7 +26,7 @@
         }
 
 
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if (conversao == ConversaoTemperatura.CelsiusFahrenheit)
             {
@@ -64,3 +72,4 @@
             return -1;
         }
     }
+}
